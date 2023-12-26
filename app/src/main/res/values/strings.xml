@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">API App</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="regester">REGESTER</string>
+    <string name="exchange_rates">Exchange Rates</string>
+    <string name="prayer_time">Prayer Time</string>
+    <string name="choose_your_interest">Choose your interest</string>
+
+    <string-array name="Citys">
+        <item>Palestine</item>
+        <item>Turkiye</item>
+        <item>Morocco</item>
+        <item>Saudi Arabia</item>
+        <item>Egypt</item>
+        <item>Jordan</item>
+    </string-array>
+</resources>

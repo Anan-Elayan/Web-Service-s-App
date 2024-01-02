@@ -58,11 +58,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/txtUserName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="40dp">
+                style="@style/textFields">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/userName"
@@ -74,6 +70,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/txtPassword"
+                style="@style/textFields"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
@@ -107,6 +104,7 @@
 
             <Button
                 android:id="@+id/btnLogin"
+                style="@style/buttons"
                 android:layout_width="326dp"
                 android:layout_height="56dp"
                 android:layout_marginLeft="10dp"
@@ -118,12 +116,12 @@
 
             <Button
                 android:id="@+id/btnRegister"
+                style="@style/buttons"
                 android:layout_width="327dp"
                 android:layout_height="56dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="10dp"
-                android:backgroundTint="#A24113"
                 android:onClick="actionRegister"
                 android:text="@string/regester" />
 

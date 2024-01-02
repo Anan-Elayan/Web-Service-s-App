@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttons">
+        <item name="android:layout_width">165dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:backgroundTint">#A24113</item>
+    </style>
+
+    <style name="textFields">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/myColor</item>
+        <item name="colorPrimaryDark">@color/myColor</item>
+        <item name="colorAccent">@color/myColor</item>
+    </style>
+
+
+    <style name="colored_checkbox" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/myColor</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources>

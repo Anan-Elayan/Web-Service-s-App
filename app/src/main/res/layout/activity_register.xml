@@ -77,6 +77,7 @@
                             android:textStyle="bold" />
 
                         <com.google.android.material.textfield.TextInputLayout
+                            style="@style/textFields"
                             android:layout_width="319dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="40dp"
@@ -92,6 +93,7 @@
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
+                            style="@style/textFields"
                             android:layout_width="319dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="40dp"
@@ -106,6 +108,7 @@
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
+                            style="@style/textFields"
                             android:layout_width="319dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="40dp"
@@ -121,6 +124,7 @@
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
+                            style="@style/textFields"
                             android:layout_width="319dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="40dp"
@@ -137,13 +141,13 @@
 
                         <Button
                             android:id="@+id/registerButton"
+                            style="@style/buttons"
                             android:layout_width="326dp"
                             android:layout_height="56dp"
                             android:layout_marginLeft="40dp"
                             android:layout_marginTop="50dp"
                             android:layout_marginRight="20dp"
                             android:layout_marginBottom="30dp"
-                            android:backgroundTint="#A24113"
                             android:onClick="registerAction"
                             android:text="REGISTER" />
 

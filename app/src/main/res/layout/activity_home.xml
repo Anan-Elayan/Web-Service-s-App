@@ -38,10 +38,10 @@
 
             <Button
                 android:id="@+id/btnExchangeRates"
+                style="@style/buttons"
                 android:layout_width="165dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
-                android:backgroundTint="#A24113"
                 android:onClick="exchangeReatesAction"
                 android:text="Exchange Rates "
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -76,10 +76,7 @@
 
             <Button
                 android:id="@+id/btnPrayer"
-                android:layout_width="165dp"
-                android:layout_height="50dp"
-                android:layout_marginBottom="8dp"
-                android:backgroundTint="#A24113"
+                style="@style/buttons"
                 android:onClick="prayerTimeAction"
                 android:text="@string/prayer_time"
                 app:layout_constraintBottom_toBottomOf="parent"
